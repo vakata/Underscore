@@ -23,8 +23,6 @@ Library aims to be as easy to use as possible. Here is example of doing some not
         ->pluck('number')
             // add numbers to 1000
         ->reduce(function($sum, $num) { $sum += $num; return $sum; }, 1000)
-            // take result
-        ->value();
             // 1006
 ```
 
