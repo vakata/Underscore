@@ -22,7 +22,7 @@ Library aims to be as easy to use as possible. Here is example of doing some not
             // changed my mind, I only want numbers
         ->pluck('number')
             // add numbers to 1000
-        ->reduce(function($sum, $num) { $sum += $num; return $sum; }, 1000)
+        ->reduce(function($sum, $num) { $sum += $num; return $sum; }, 1000);
             // 1006
 ```
 
